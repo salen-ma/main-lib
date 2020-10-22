@@ -4,8 +4,14 @@
   "description": "subtree test",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pullSub": "node ./sh/subtree.js --type pull",
+    "pushSub": "node ./sh/subtree.js --type push"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "shelljs": "^0.8.4",
+    "yargs": "^16.1.0"
+  }
 }
